@@ -98,6 +98,10 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 endif
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+	  RemovePackages
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
